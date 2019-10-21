@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.coverFlow{overflow:hidden; position:relative; margin:10px auto;}
+ul{ float:left; margin-top:20px; position:relative;list-style: none;}
+
+.loadingContainer{}
+
+.childElem{ width:400px; height:250px;position:absolute; }
+.img1{ }
+.img2{ center top !important; }
+.img3{ center top !important; }
+.img4{ center top !important; }
+.img5{background:url(../imagess/h11.jpg) no-repeat center top !important; }
+.img6{background:url(../imagess/h6.jpg) no-repeat center top !important; }
+.img7{background:url(../imagess/h7.jpg) no-repeat center top !important; }
+.img8{background:url(../imagess/h8.jpg) no-repeat center top !important; }
+.img9{background:url(../imagess/h3.jpg) no-repeat center top !important; }
+.img10{background:url(../imagess/h4.jpg) no-repeat center top !important; }
+
+.tooltip{width:100px; height:10px; background:#2B2E31; border:1px solid #2B2E31; position:absolute; z-index:10000; display:none;}
+.tooltipInnerr{ padding:0px; position:absolute; color:#B3B8BD; width:100%;height:10px; text-align:center; }
+.sliderCoverr{ width:600px;
+position:absolute; height:10px;}
+
+.loadingImage{width:100px; height:3px; border:1px solid #2B2E31;  margin:10px auto;}
+.innerLoader{ width:0%; height:3px; background:#B3B8BD;}
+
+.ui-slider-handle{background:#2B2E31 !important; border-radius:0px !important; border:0px !important; top:0px !important; height:11px !important;}
+.ui-slider-horizontal{ background:#B3B8BD !important;}
+.ui-state-hover{background:#FF0000 !important;}
+
+.buttons{position:relative;clear:both;overflow:hidden;width:530px;padding-left:430px;}
+.previous{width:26px;height:26px;background:url("../imagess/previous.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;}
+.next{width:26px;height:26px;background:url("../imagess/next.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
+.play{width:26px;height:26px;background:url("../imagess/play.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
+.onactive{width:26px;height:26px;background:url("../imagess/stop.png") no-repeat 0 0;text-indent: -9999px; cursor:pointer;float:left;margin-left:10px;}
